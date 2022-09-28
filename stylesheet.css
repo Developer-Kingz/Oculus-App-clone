@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbody {
+    width: 100vw;
+    height: 1178px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    height: 1178px;
+    /* border: 1px solid black; */
+    background: #2D2D2D;
+}
+
+.shape {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.content-area {
+    width: 75%;
+    height: 1178px;
+    /* border: 1px solid black; */
+    background: linear-gradient(96.97deg, #000000 2.78%, rgba(34, 34, 34, 0.66) 152.37%);
+}
+
+.mainbody .header {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+}
+
+.mainbody .header .header-container {
+    width: 92%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbody .header .header-container .search {
+    width: 35%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5F5F5F;
+    margin-top: 15px;
+}
+
+.mainbody .header .header-container .search .input {
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #5F5F5F;
+}
+
+.mainbody .header .header-container .icons {
+    width: 20%;
+    height: 80%;
+    /* border: 1px solid black; */
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.oculus {
+    width: 85%;
+    height: 336px;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.oculus .oculus-inner {
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    /* background-color: #A100ED; */
+    background: linear-gradient(180deg, rgba(161, 0, 237, 0.27) 0%, #DA00FE 100%);
+}
+
+.oculus .oculus-inner .writeup {
+    width: 27%;
+    height: 85%;
+    /* border: 1px solid black; */
+    margin: 20px 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.oculus .oculus-inner .writeup button {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.oculus .oculus-inner .writeup button img{
+    margin-right: 10px;
+}
+
+
+.oculus .oculus-img {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 1px;
+}
+
+.oculus .oculus-img .the-img {
+    width: 110%;
+    height: 103%;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.product {
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+.product .product-inner {
+    width: 42%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin-left: 50px;
+}
+
+.product .product-inner .tap {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #A100ED;
+    color: white;
+}
+
+.product .product-inner .popular {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid #8A8A8A;
+    background-color: transparent;
+    color: white;
+}
+
+.product .product-inner .recommended {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid #8A8A8A;
+    background-color: transparent;
+    color: white;
+}
+
+.product .product-inner .filter {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #DA00FE;
+    background-color: transparent;
+    color: white;
+}
+
+.flex-container {
+    width: 89%;
+    height: 52%;
+    /* border: 1px solid white; */
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-container .box {
+    width: 24%;
+    height: 47%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    background-color: #323232;
+    border-radius: 8px;
+}
+
+.flex-container .flex5 {
+    margin-top: 30px;
+}
+
+.flex-container .flex6 {
+    margin-top: 30px;
+}
+
+.flex-container .flex7 {
+    margin-top: 30px;
+}
+
+.flex-container .flex8 {
+    margin-top: 30px;
+}
+
+.flex-container .box .flex-inner {
+    width: 60%;
+    height: 50%;
+    /* border: 1px solid white; */
+    /* margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.flex-container .box .set {
+    transform: translateY(-2.6rem);
+}
+
+.flex3 .flex-inner {
+    transform: translateY(-2.2rem);
+}
+
+.flex7 .flex-inner {
+    transform: translateY(-2.2rem);
+}
+
+.flex-container .box .vr {
+    transform: translateY(-2.6rem);
+}
+
+.flex4 .flex-inner {
+    transform: translateY(-2.9rem);
+}
+
+.flex8 .flex-inner {
+    transform: translateY(-2.9rem);
+}
+
+.flex-container .box .keyboard {
+    transform: translateY(-1.3rem);
+}
+
+.flex2 .flex-inner {
+    transform: translateY(-0.6rem);
+}
+
+.flex6 .flex-inner {
+    transform: translateY(-0.6rem);
+}
+
+.sidebar .catalog {
+    margin: 40px 90px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: #8A8A8A;
+}
+
+.profile {
+    width: 50%;
+    height: 30%;
+    /* border: 1px solid white; */
+    margin-left: 12px;
+}
+
+.profile .ok {
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .ok img {
+    width: 100px;
+    height: 100px;
+}
+
+.category {
+    width: 80%;
+    height: 30px;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    color: #CBCBCB;
+}
+
+.computer {
+    width: 70%;
+    height: 40%;
+    /* border: 1px solid white; */
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.computer .yes {
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+.computer .yes img {
+    width: 130px;
+    height: 130px;
+}
+
+.computer .game-head img {
+    width: 210px;
+    height: 210px;
+}
+
+.computer .mouse-game img {
+    width: 200px;
+    height: 120px;
+}
+
+@media screen and (max-width: 480px) {
+    .mainbody{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+    .sidebar{
+        width: 100%;
+
+    }
+    .content-area{
+        width: 100%;
+        height: auto;
+    }
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .mainbody .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainbody .header .header-container {
+        /* flex-direction: column; */
+        width: 75%;
+        height: 100%;
+    }
+    
+    .mainbody .header .header-container .search {
+        width: 120px;
+        height: 50%;
+        margin: auto;
+    }
+    .mainbody .header .header-container .search .input{
+        width: 50%;
+    }
+    .mainbody .header .header-container .search img{
+        width: 20px;
+        height: 20px;
+    }
+    .mainbody .header .header-container .icons{
+        width: 20%;
+        height: 80%;
+        margin-top: 10px;
+    }
+    .mainbody .header .header-container .icons img{
+        width: 60%;
+        height: 80%;
+    }
+    .oculus .oculus-inner .writeup{
+        font-size: 18px;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .oculus .oculus-img {
+        display: none;
+    }
+    .product .product-inner{
+        width: 80%;
+        /* margin-left: 5px; */
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .flex-container {
+        margin: 40px auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-container .box {
+        width: 90%;
+        height: 47%;
+    }
+    .flex-container .flex1 {
+        margin-top: 30px;
+    }
+    
+    .flex-container .flex2 {
+        margin-top: 30px;
+    }
+    
+    .flex-container .flex3 {
+        margin-top: 30px;
+    }
+    
+    .flex-container .flex4 {
+        margin-top: 30px;
+    }
+    .flex-container .flex1 {
+        display: block;
+    }
+    .flex-container .flex1 .flex-inner {
+        margin: auto;
+    }
+    .flex-container .flex5 {
+        display: block;
+    }
+    .flex-container .flex5 .flex-inner {
+        margin: auto;
+    }
+    
+}
